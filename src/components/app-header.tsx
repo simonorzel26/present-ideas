@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Star, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 
 export function AppHeader() {
 	return (
@@ -15,8 +15,7 @@ export function AppHeader() {
 							Find thoughtful gifts from your real conversations
 						</h1>
 						<p className="mx-auto max-w-2xl text-balance font-medium text-lg text-muted-foreground">
-							Upload a chat export and get personal, relevant present ideas for
-							loved ones and friends.
+							Upload a chat export and get personal, relevant present ideas for loved ones and friends. By using this tool you agree that parts of your text may be sent to OpenAI to generate ideas and that you are responsible for what you upload.
 						</p>
 					</div>
 				</div>

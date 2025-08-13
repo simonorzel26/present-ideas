@@ -277,6 +277,9 @@ export function ChatDropzone({
 						<Loader2 className="size-4 animate-spin" />
 						<span>{processingProgress || "Generating…"}</span>
 					</div>
+					<p className="text-muted-foreground text-xs">
+						By continuing you agree that parts of your uploaded text may be sent to OpenAI to generate ideas. You are responsible for the content you share.
+					</p>
 					{totalChunks > 0 && (
 						<div className="text-muted-foreground text-sm">
 							{currentChunk} / {totalChunks} parts

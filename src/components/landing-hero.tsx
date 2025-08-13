@@ -19,10 +19,9 @@ export function LandingHero() {
 							</span>
 						</h1>
 						<div className="relative mx-auto max-w-2xl">
-							<p className="text-balance text-muted-foreground">
-								Upload a chat export and get a friendly list of present ideas
-								inspired by your conversations.
-							</p>
+						<p className="text-balance text-muted-foreground">
+							Upload a chat export and get a friendly list of present ideas inspired by your conversations. By using this tool you agree that parts of your text may be sent to OpenAI to generate ideas.
+						</p>
 						</div>
 					</div>
 				</div>

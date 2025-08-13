@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 		template: "%s · Present Ideas",
 	},
 	description:
-		"A little tool to find thoughtful present ideas for loved ones and friends from your chat logs.",
+		"A little tool to find thoughtful present ideas for loved ones and friends from your chat logs. By using it you agree that parts of your text may be sent to OpenAI to generate ideas.",
 	applicationName: "Present Ideas",
 	generator: "Next.js",
 	keywords: [
