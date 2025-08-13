@@ -34,7 +34,7 @@ export function IdeasDisplay({
 				{keys.map((key) => (
 					<div
 						key={key}
-						className="h-20 animate-pulse rounded-xl border border-foreground/10 bg-white/80 shadow-sm"
+						className="h-20 animate-pulse rounded-xl border bg-card shadow-sm"
 					/>
 				))}
 			</div>
@@ -55,12 +55,12 @@ export function IdeasDisplay({
 			<div className="space-y-4">
 				<div className="flex items-center justify-between">
 					<div className="flex items-center gap-3">
-						<span className="graffiti-text inline-flex items-center gap-2 font-bold text-sm">
+						<span className="inline-flex items-center gap-2 font-semibold text-sm">
 							<Sparkles className="h-5 w-5" />
 							{ideas.length} PERSONAL GIFT IDEAS
 						</span>
 						{isLoading && (
-							<Badge variant="secondary" className="rebel-badge font-bold">
+							<Badge variant="secondary" className="font-semibold">
 								GENERATING CHAOS…
 							</Badge>
 						)}
@@ -73,20 +73,20 @@ export function IdeasDisplay({
 					{ideas.map((idea, index) => (
 						<div
 							key={`${idea.name}::${idea.searchQuery}`}
-							className="relative flex items-start justify-between gap-4 overflow-hidden rounded-xl bg-white/70 p-5 shadow-lg backdrop-blur-sm"
+							className="relative flex items-start justify-between gap-4 overflow-hidden rounded-xl border bg-card p-5 shadow-sm"
 						>
 							<div className="absolute top-3 right-3 text-2xl">
 								{getIdeaIcon(index)}
 							</div>
 							<div className="flex-1 select-none space-y-3">
 								<div className="flex items-start gap-2">
-									<Lightbulb className="mt-1 h-4 w-4 flex-shrink-0 text-yellow-600" />
-									<p className="graffiti-text font-bold text-base leading-relaxed">
+									<Lightbulb className="mt-1 h-4 w-4 flex-shrink-0 text-foreground/60" />
+									<p className="font-semibold text-base leading-relaxed">
 										{idea.name}
 									</p>
 								</div>
 								<div className="flex items-start gap-2">
-									<Heart className="mt-1 h-4 w-4 flex-shrink-0 text-red-500" />
+									<Heart className="mt-1 h-4 w-4 flex-shrink-0 text-foreground/60" />
 									<p className="font-medium text-muted-foreground text-sm leading-relaxed">
 										{idea.description}
 									</p>
@@ -111,16 +111,16 @@ export function IdeasDisplay({
 	}
 
 	return (
-		<Card className="rounded-2xl border-0 shadow-lg">
+		<Card className="rounded-2xl border bg-card shadow-sm">
 			<CardHeader>
 				<div className="flex items-center justify-between">
 					<div className="flex items-center gap-3">
-						<CardTitle className="graffiti-text flex items-center gap-2">
+						<CardTitle className="flex items-center gap-2 font-semibold">
 							<Sparkles className="h-6 w-6" />
 							PERSONAL GIFT IDEAS ({ideas.length})
 						</CardTitle>
 						{isLoading && (
-							<Badge variant="secondary" className="rebel-badge font-bold">
+							<Badge variant="secondary" className="font-semibold">
 								GENERATING CHAOS…
 							</Badge>
 						)}
@@ -136,20 +136,20 @@ export function IdeasDisplay({
 						{ideas.map((idea, index) => (
 							<div
 								key={`${idea.name}::${idea.searchQuery}`}
-								className="relative flex items-start justify-between gap-4 overflow-hidden rounded-xl bg-white/70 p-5 shadow-lg backdrop-blur-sm"
+								className="relative flex items-start justify-between gap-4 overflow-hidden rounded-xl border bg-card p-5 shadow-sm"
 							>
 								<div className="absolute top-3 right-3 text-2xl">
 									{getIdeaIcon(index)}
 								</div>
 								<div className="flex-1 select-none space-y-3">
 									<div className="flex items-start gap-2">
-										<Lightbulb className="mt-1 h-4 w-4 flex-shrink-0 text-yellow-600" />
-										<p className="graffiti-text font-bold text-sm leading-relaxed">
+										<Lightbulb className="mt-1 h-4 w-4 flex-shrink-0 text-foreground/60" />
+										<p className="font-semibold text-sm leading-relaxed">
 											{idea.name}
 										</p>
 									</div>
 									<div className="flex items-start gap-2">
-										<Heart className="mt-1 h-4 w-4 flex-shrink-0 text-red-500" />
+										<Heart className="mt-1 h-4 w-4 flex-shrink-0 text-foreground/60" />
 										<p className="font-medium text-muted-foreground text-xs leading-relaxed">
 											{idea.description}
 										</p>

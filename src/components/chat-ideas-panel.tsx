@@ -58,7 +58,7 @@ export function ChatIdeasPanel() {
 	};
 
 	return (
-		<div className="rounded-3xl border-0 bg-white/70 p-5 shadow-sm backdrop-blur">
+		<div className="rounded-2xl border bg-card p-5 shadow-sm">
 			<div className="grid gap-6 lg:grid-cols-2">
 				<div>
 					<ChatDropzone
@@ -67,7 +67,7 @@ export function ChatIdeasPanel() {
 						onProcessingCompleteAction={handleProcessingCompleteAction}
 					/>
 				</div>
-				<div className="lg:border-black/5 lg:border-l lg:pl-6">
+				<div className="lg:border-border lg:border-l lg:pl-6">
 					<IdeasDisplay ideas={ideas} isLoading={isProcessing} embedded />
 				</div>
 			</div>

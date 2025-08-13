@@ -221,25 +221,25 @@ export function ChatDropzone({
 				onError={handleFileRejection}
 				disabled={isProcessing}
 				src={uploadedFile ? [uploadedFile] : undefined}
-				className="group relative z-10 min-h-[200px] rounded-xl border-dashed bg-gradient-to-b from-white/80 to-white/60 transition-all hover:from-white/90"
+				className="group relative z-10 min-h-[200px] rounded-xl border-dashed bg-card transition-colors"
 			>
 				<DropzoneEmptyState>
 					<div className="flex flex-col items-center justify-center space-y-4">
-						<div className="flex size-20 items-center justify-center rounded-2xl bg-gradient-to-b from-rose-100 to-sky-100 text-foreground shadow-lg">
+						<div className="flex size-20 items-center justify-center rounded-2xl bg-muted text-foreground shadow-sm">
 							<Upload className="size-8" />
 						</div>
 						<div className="text-center">
-							<p className="graffiti-text font-bold text-lg">
+							<p className="font-semibold text-lg tracking-tight">
 								DRAG & DROP YOUR .TXT FILE
 							</p>
-							<p className="font-medium text-muted-foreground text-sm">
+							<p className="text-muted-foreground text-sm">
 								Max 5MB • Or click to browse
 							</p>
 							<div className="mt-2 flex items-center justify-center gap-2">
-								<MessageCircle className="h-4 w-4 text-green-600" />
+								<MessageCircle className="h-4 w-4 text-foreground/60" />
 								<span className="text-muted-foreground text-xs">WhatsApp</span>
 								<span className="text-muted-foreground text-xs">•</span>
-								<MessageSquare className="h-4 w-4 text-blue-600" />
+								<MessageSquare className="h-4 w-4 text-foreground/60" />
 								<span className="text-muted-foreground text-xs">iMessage</span>
 							</div>
 						</div>
@@ -273,13 +273,13 @@ export function ChatDropzone({
 
 			{isProcessing && (
 				<div className="space-y-3 text-center">
-					<div className="rebel-badge mx-auto inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-2 font-bold text-muted-foreground text-sm backdrop-blur">
+					<div className="mx-auto inline-flex items-center gap-2 rounded-full bg-foreground/5 px-4 py-2 text-muted-foreground text-sm">
 						<Loader2 className="size-4 animate-spin" />
-						<span>{processingProgress || "GENERATING CHAOS..."}</span>
+						<span>{processingProgress || "Generating…"}</span>
 					</div>
 					{totalChunks > 0 && (
-						<div className="font-bold text-muted-foreground text-sm">
-							{currentChunk} / {totalChunks} PARTS
+						<div className="text-muted-foreground text-sm">
+							{currentChunk} / {totalChunks} parts
 						</div>
 					)}
 				</div>
