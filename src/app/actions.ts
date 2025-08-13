@@ -71,7 +71,7 @@ ${anonymizedContent}`;
 
 		const { object } = await withTimeout(
 			generateObject({
-				model: aiConfig.openai("gpt-4o-mini"),
+				model: aiConfig.openai("gpt-5-mini-2025-08-07"),
 				output: "array",
 				schema: IdeaSchema,
 				mode: "json",
