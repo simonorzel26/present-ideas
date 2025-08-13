@@ -25,16 +25,16 @@ export function PlayfulLanding({
 						<div className="text-center">
 							<div className="mx-auto inline-flex items-center gap-2 rounded-full bg-foreground/5 px-4 py-2 text-foreground text-sm">
 								<Zap className="size-4" />
-								REVOLUTIONARY PRESENTS
+								Present ideas from your chats
 							</div>
 							<h1 className="mt-6 text-balance font-black text-6xl leading-tight tracking-tight md:text-7xl">
 								<span className="wild-gradient bg-clip-text text-transparent">
-									DROP. SMASH. CREATE.
+									Genuine present ideas for loved ones and friends
 								</span>
 							</h1>
 							<p className="mx-auto mt-4 max-w-2xl text-balance font-medium text-lg text-muted-foreground">
-								Export a chat as .txt and drop it here. We turn inside jokes and
-								weekend plans into gift ideas that will blow minds.
+								Export a chat as .txt and drop it here. We’ll turn shared
+								moments and hobbies into thoughtful gift ideas.
 							</p>
 						</div>
 

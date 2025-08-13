@@ -103,10 +103,11 @@ export default function HomePage() {
 				<div className="mx-auto max-w-2xl space-y-8">
 					<div className="mb-8 text-center">
 						<h1 className="wild-gradient mb-4 bg-clip-text font-extrabold text-6xl text-transparent tracking-tight md:text-7xl">
-							PRESENT IDEAS
+							Genuine Present Ideas
 						</h1>
 						<p className="text-muted-foreground text-xl md:text-2xl">
-							GET PERSONAL PRESENT IDEAS BASED ON CHATS WITH YOUR LOVED ONES
+							Upload a chat and get thoughtful ideas inspired by your real
+							conversations
 						</p>
 					</div>
 
@@ -198,7 +199,7 @@ export default function HomePage() {
 							<AccordionTrigger className="text-base">
 								<div className="inline-flex items-center gap-2">
 									<Gift className="h-5 w-5" />
-									Personal Gift Ideas for Your Loved Ones
+									Present Ideas for Loved Ones and Friends
 								</div>
 							</AccordionTrigger>
 							<AccordionContent>
@@ -224,7 +225,7 @@ export default function HomePage() {
 										<div className="space-y-6 text-center">
 											<div className="inline-flex items-center gap-2 rounded-full bg-foreground/5 px-4 py-2 text-foreground/80 text-sm">
 												<Gift className="h-5 w-5" />
-												PERSONAL GIFT IDEAS FOR YOUR LOVED ONES
+												Thoughtful present ideas from your chats
 											</div>
 											<IdeasDisplay
 												ideas={ideas}

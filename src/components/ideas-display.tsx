@@ -57,11 +57,11 @@ export function IdeasDisplay({
 					<div className="flex items-center gap-3">
 						<span className="inline-flex items-center gap-2 font-semibold text-sm">
 							<Sparkles className="h-5 w-5" />
-							{ideas.length} PERSONAL GIFT IDEAS
+							{ideas.length} thoughtful present ideas
 						</span>
 						{isLoading && (
 							<Badge variant="secondary" className="font-semibold">
-								GENERATING CHAOS…
+								Generating ideas…
 							</Badge>
 						)}
 					</div>
@@ -117,11 +117,11 @@ export function IdeasDisplay({
 					<div className="flex items-center gap-3">
 						<CardTitle className="flex items-center gap-2 font-semibold">
 							<Sparkles className="h-6 w-6" />
-							PERSONAL GIFT IDEAS ({ideas.length})
+							Thoughtful present ideas ({ideas.length})
 						</CardTitle>
 						{isLoading && (
 							<Badge variant="secondary" className="font-semibold">
-								GENERATING CHAOS…
+								Generating ideas…
 							</Badge>
 						)}
 					</div>

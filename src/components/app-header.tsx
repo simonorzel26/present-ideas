@@ -9,14 +9,14 @@ export function AppHeader() {
 					<div className="space-y-6 text-center">
 						<div className="mx-auto inline-flex items-center gap-2 rounded-full bg-foreground/5 px-4 py-2 text-foreground text-sm">
 							<Zap className="size-4" />
-							REVOLUTIONARY GIFT IDEAS
+							Present ideas for the people you care about
 						</div>
 						<h1 className="wild-gradient bg-clip-text font-extrabold text-6xl text-transparent leading-tight tracking-tight md:text-7xl">
-							DROP A CHAT. CREATE CHAOS.
+							Find thoughtful gifts from your real conversations
 						</h1>
 						<p className="mx-auto max-w-2xl text-balance font-medium text-lg text-muted-foreground">
-							We scan the in‑jokes, the plans, the patterns—and turn them into
-							gifts that will blow minds and break expectations.
+							Upload a chat export and get personal, relevant present ideas for
+							loved ones and friends.
 						</p>
 					</div>
 				</div>

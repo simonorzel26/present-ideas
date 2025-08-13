@@ -11,17 +11,17 @@ export function LandingHero() {
 					<div className="space-y-6 text-center">
 						<div className="mx-auto inline-flex items-center gap-2 rounded-full bg-foreground/5 px-3 py-1 text-foreground text-xs">
 							<Sparkles className="size-3.5" />
-							Gifts from what you say
+							Present ideas from your chats
 						</div>
 						<h1 className="text-balance font-extrabold text-5xl leading-tight tracking-tight md:text-6xl">
 							<span className="wild-gradient bg-clip-text text-transparent">
-								Present Ideas
+								Genuine present ideas for loved ones and friends
 							</span>
 						</h1>
 						<div className="relative mx-auto max-w-2xl">
 							<p className="text-balance text-muted-foreground">
-								Drop a chat export. We read the tone, the plans, the in‑jokes,
-								then turn it into gifts that land.
+								Upload a chat export and get a friendly list of present ideas
+								inspired by your conversations.
 							</p>
 						</div>
 					</div>
