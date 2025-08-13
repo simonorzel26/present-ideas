@@ -29,7 +29,7 @@ export function PlayfulLanding({
 							</div>
 							<h1 className="mt-6 text-balance font-black text-6xl leading-tight tracking-tight md:text-7xl">
 								<span className="wild-gradient bg-clip-text text-transparent">
-									Genuine present ideas for loved ones and friends
+									Genuine present ideas
 								</span>
 							</h1>
 							<p className="mx-auto mt-4 max-w-2xl text-balance font-medium text-lg text-muted-foreground">

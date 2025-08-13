@@ -15,7 +15,7 @@ export function LandingHero() {
 						</div>
 						<h1 className="text-balance font-extrabold text-5xl leading-tight tracking-tight md:text-6xl">
 							<span className="wild-gradient bg-clip-text text-transparent">
-								Genuine present ideas for loved ones and friends
+								Genuine present ideas
 							</span>
 						</h1>
 						<div className="relative mx-auto max-w-2xl">
