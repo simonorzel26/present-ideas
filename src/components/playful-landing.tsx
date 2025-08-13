@@ -32,9 +32,12 @@ export function PlayfulLanding({
 									Genuine present ideas
 								</span>
 							</h1>
-						<p className="mx-auto mt-4 max-w-2xl text-balance font-medium text-lg text-muted-foreground">
-							Export a chat as .txt and drop it here. We’ll turn shared moments and hobbies into thoughtful gift ideas. By using this tool you agree that parts of your text may be sent to OpenAI to generate ideas and that you are responsible for what you upload.
-						</p>
+							<p className="mx-auto mt-4 max-w-2xl text-balance font-medium text-lg text-muted-foreground">
+								Export a chat as .txt and drop it here. We’ll turn shared
+								moments and hobbies into thoughtful gift ideas. By using this
+								tool you agree that parts of your text may be sent to OpenAI to
+								generate ideas and that you are responsible for what you upload.
+							</p>
 						</div>
 
 						<div className="relative mx-auto w-full max-w-2xl">

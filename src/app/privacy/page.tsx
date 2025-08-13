@@ -25,19 +25,19 @@ export default function PrivacyPage() {
 							ideas.
 						</li>
 						<li>
-							Avoid uploading sensitive information. Only upload content you have
-							permission to share.
+							Avoid uploading sensitive information. Only upload content you
+							have permission to share.
 						</li>
 						<li>
-							No accounts are required. The tool does not intentionally store your
-							chat data on the server beyond what is needed to respond.
+							No accounts are required. The tool does not intentionally store
+							your chat data on the server beyond what is needed to respond.
 						</li>
 					</ul>
 					<h2>Your responsibility</h2>
 					<ul>
 						<li>
-							You are responsible for the content you upload and for complying with
-							any laws or policies that apply to you.
+							You are responsible for the content you upload and for complying
+							with any laws or policies that apply to you.
 						</li>
 						<li>
 							By using the tool, you agree that the author is not liable for any
@@ -47,22 +47,20 @@ export default function PrivacyPage() {
 					<h2>Third‑party services</h2>
 					<ul>
 						<li>
-							Idea generation relies on OpenAI models. Interactions with OpenAI are
-							subject to OpenAI’s terms and privacy practices.
+							Idea generation relies on OpenAI models. Interactions with OpenAI
+							are subject to OpenAI’s terms and privacy practices.
 						</li>
 						<li>
-							Basic, privacy‑minded analytics may be collected to understand usage
-							(e.g., Plausible). No personal profiles are built.
+							Basic, privacy‑minded analytics may be collected to understand
+							usage (e.g., Plausible). No personal profiles are built.
 						</li>
 					</ul>
 					<p>
-						If you have questions, open an issue on the repository or remove your
-						data and stop using the tool.
+						If you have questions, open an issue on the repository or remove
+						your data and stop using the tool.
 					</p>
 				</div>
 			</div>
 		</main>
 	);
 }
-
-

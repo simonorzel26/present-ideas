@@ -106,7 +106,9 @@ export default function HomePage() {
 							Genuine Present Ideas
 						</h1>
 						<p className="text-muted-foreground text-xl md:text-2xl">
-							Upload a chat and get thoughtful ideas inspired by your real conversations. By using this tool you agree that parts of your text may be sent to OpenAI to generate ideas.
+							Upload a chat and get thoughtful ideas inspired by your real
+							conversations. By using this tool you agree that parts of your
+							text may be sent to OpenAI to generate ideas.
 						</p>
 					</div>
 
