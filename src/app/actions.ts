@@ -69,12 +69,15 @@ ${anonymizedContent}`;
 				),
 		});
 
+		const modelId = "gpt-4o-mini";
+		console.log("Server: Using model:", modelId, "temperature:", 1);
 		const { object } = await withTimeout(
 			generateObject({
-				model: aiConfig.openai("gpt-5-nano-2025-08-07"),
+				model: aiConfig.openai(modelId),
 				output: "array",
 				schema: IdeaSchema,
 				mode: "json",
+				temperature: 1,
 				prompt: `${finalPrompt}\n\nReturn only a JSON array where each element is an object with fields: name, searchQuery, description (no extra properties). No numbering. No wrapper object.`,
 			}),
 			90_000,
